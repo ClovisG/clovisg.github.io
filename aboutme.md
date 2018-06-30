@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Assistant professor in data science
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### Short CV
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+PostDoc at the Max Planck Institute in Göttingen in the [SoedingLab](http://www.mpibpc.mpg.de/soeding)
+PhD in Computer science at Inria Rennes in DyLiss team [DyLiss](http://www.irisa.fr/dyliss/)
+MSc [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch/)
+Engineering degree from [Ecole Centrale Paris](http://www.centralesupelec.fr/)
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
