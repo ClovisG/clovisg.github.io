@@ -6,7 +6,7 @@ subtitle: Data science for microbiology
 
 ### General interests
 
-Metagenomics:
+Bioinformatics:
 
  - Abundance sequences classification
 
