@@ -7,7 +7,9 @@ subtitle: (past)
 ### Computer Science
 
 Compilation (MSc): Grammars, language theory, project to create a compiler for a simple language (Université de Rennes 1, France)
-C++ (BSc) (École Polytechnique Fédérale de Lausanne, Switzerland)
+
+
+C++ (BSc): (École Polytechnique Fédérale de Lausanne, Switzerland)
 
 ### Mathematics
 
