@@ -3,6 +3,7 @@ layout: page
 title: About me
 subtitle: Assistant professor in data science
 ---
+ORC ID [0000-0002-0560-6023](https://orcid.org/0000-0002-0560-6023)
 
 ### Short CV
 
