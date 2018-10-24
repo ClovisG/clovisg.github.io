@@ -7,25 +7,20 @@ subtitle: Data science for microbiology
 ### General interests
 
 Bioinformatics:
-
- - Abundance sequences classification
-
- - Metagenomics and viral metagenomics
-
- - Protein structure classification
+ * Abundance sequences classification
+ * Metagenomics and viral metagenomics
+ * Metagenome-wide association studies
+ * Protein structure classification
 
 Computer science:
-
- - Supervised and unsupervised classification
+ * Supervised and unsupervised classification
 
 ### Projects
 
 Viral metagenomics sequence annotations
-
 Binning
-
+Human gut MWAS
 Gene calling for metagenomics
-
 Remote homology detection
 
 
