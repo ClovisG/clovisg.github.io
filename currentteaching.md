@@ -4,12 +4,12 @@ title: Teaching
 subtitle: (2018-2019)
 ---
 
-### Ensimag
+### [Ensimag](http://ensimag.grenoble-inp.fr/welcome/)
 
 * Programming with Python (3MMBPI)
 * Introduction to data science (3MMISD)
 
-### Mastere BigData
+### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
 *  Information Retrieval
    * [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
