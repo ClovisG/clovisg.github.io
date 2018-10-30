@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About me
+title: About/contact
 subtitle: Assistant professor in data science
 ---
 ORC ID [0000-0002-0560-6023](https://orcid.org/0000-0002-0560-6023)
+
 Contact: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)
 
 
