@@ -17,11 +17,11 @@ Computer science:
 
 ### Projects
 
-Viral metagenomics sequence annotations
-Binning
-Human gut MWAS
-Gene calling for metagenomics
-Remote homology detection
+* (Viral) metagenomics sequence annotations
+* Binning
+* Human gut MWAS
+* Gene calling for metagenomics
+* High throughput remote homology detection
 
 
 

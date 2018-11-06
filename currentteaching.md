@@ -8,6 +8,7 @@ subtitle: (2018-2019)
 
 * Programming with Python (3MMBPI)
 * Introduction to data science (3MMISD)
+* Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
 
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
