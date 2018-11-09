@@ -1,0 +1,45 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{2}{x2-10001}{QQ2-2-1}{Bases}}{3}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{3}{x3-20001.1}{QQ2-3-2}{Bonjour}}{3}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{4}{x4-30001.2}{QQ2-4-3}{\^Age}}{4}\relax 
+\doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{5}{x5-40001.3}{QQ2-5-4}{Somme}}{4}\relax 
+\doTocEntry\tocsection{1.4}{\csname a:TocLink\endcsname{6}{x6-50001.4}{QQ2-6-5}{Triangle}}{5}\relax 
+\doTocEntry\tocsection{1.5}{\csname a:TocLink\endcsname{7}{x7-60001.5}{QQ2-7-6}{Logo}}{5}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{7}{x7-6001}{}{1/test_logo.py}}{6}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{7}{x7-6058}{}{1/logo.py}}{6}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{8}{x8-70002}{QQ2-8-9}{It\'erations}}{7}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{9}{x9-80002.1}{QQ2-9-10}{Reconstitutions}}{7}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{10}{x10-90002.2}{QQ2-10-11}{\'Echiquier}}{9}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{11}{x11-100002.3}{QQ2-11-12}{Images PGM}}{10}\relax 
+\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{12}{x12-110002.4}{QQ2-12-13}{Kaléidoscope}}{12}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{12}{x12-11001}{}{2/kaleidoscope.py}}{12}\relax 
+\doTocEntry\tocsection{2.5}{\csname a:TocLink\endcsname{13}{x13-120002.5}{QQ2-13-15}{Plateau}}{13}\relax 
+\doTocEntry\toclof{2.1}{\csname a:TocLink\endcsname{13}{x13-120011}{}{\ignorespaces plateau de jeu, taille 800x600}}{figure}\relax 
+\doTocEntry\tocsection{2.6}{\csname a:TocLink\endcsname{14}{x14-130002.6}{QQ2-14-17}{Plus grande sous-suite monotone}}{17}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{14}{x14-140002.6}{QQ2-14-18}{Notes:{}}}{18}\relax 
+\doTocEntry\tocsection{2.7}{\csname a:TocLink\endcsname{15}{x15-150002.7}{QQ2-15-19}{Tout \'eteint}}{18}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{16}{x16-160003}{QQ2-16-20}{Tableaux, dictionnaires}}{23}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{17}{x17-170003.1}{QQ2-17-21}{Pivot}}{23}\relax 
+\doTocEntry\toclof{3.1}{\csname a:TocLink\endcsname{17}{x17-170011}{}{\ignorespaces On pivote autour de 3}}{figure}\relax 
+\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{18}{x18-180003.2}{QQ2-18-23}{Ressources}}{27}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{18}{x18-18001}{}{3/ressources.py}}{27}\relax 
+\doTocEntry\tocsection{3.3}{\csname a:TocLink\endcsname{19}{x19-190003.3}{QQ2-19-25}{Mots suivants}}{29}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{19}{x19-200003.3}{QQ2-19-26}{ c'est un serpent python\\ c'est un python serpent\\ qui se promene dans la foret\\ pour chercher a devorer\\ un beau petit lapin\\ ou bien un negre fin.\\ car le serpent python a faim\\ il a une faim sans fin !\\ mais betes et gens sont partis hier\\ loues par la Metro Goldwyn Mayer\\ pour figurer dans un film de Tarzan\\ qui doit rapporter beaucoup d'argent !\\ et le serpent piteux\\ est triste et se mord la queue\\ car il comprend, o desespoir\\ qu'il ne mangera pas ce soir. }}{29}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{19}{x19-210003.3}{QQ2-19-27}{ soudain le bois s'eveille\\ arrivent des appareils\\ de prises de vues de prise de son\\ c'est la scene du grand frisson\\ on lache des animaux\\ des lions et des rhino-\\ ceros qu'ont l'air feroce comm' tout\\ mais sont doux comme des toutous\\ notre serpent du haut d'une branche en l'air\\ voit monsieur Johnny Weissmuller\\ qui fait joujou avec un elephant\\ quel joli tableau pour les enfants.\\ mais tant de cinema\\ ne remplit pas l'estomac\\ du pauvre serpent qui n'aura pas\\ qui n'aura pas de repas.}}{29}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{19}{x19-220003.3}{QQ2-19-28}{ quand une idee subtile\\ germe au coeur du reptile\\ profitant d'une repetition\\ voici qu'avec precaution\\ dans l'ombre du crepuscule\\ il avance il recule\\ puis happe un morceau minuscule\\ un morceau de pellicule\\ qui depassait d'une boite en fer\\ c'etait la grande scene du Val d'Enfer\\ tournee le matin dans une cloche a plongeur\\ pour mieux voir evoluer le nageur.\\ et comme un spaghetti\\ le python en appetit\\ avale deux cents metres a present\\ des aventures de Tarzan !}}{30}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{19}{x19-230003.3}{QQ2-19-29}{ puis il s'en va joyeux\\ pensant :{} " c'est merveilleux\\ je vais dormir maintenant trois semaines\\ digerer ce film sans peine. "\\ rampant par-ci par-la\\ il s'enroule, oh la la,\\ autour d'un cocotier geant\\ mais soudain s'ecrie :{} " j'ai en...\\ j'ai envie de vomir c'est affreux, tu m'as\\ empoisonne, cinema\\ tarzan n'est pas pour les pauvres pythons\\ j'en ai mal jusqu'au bout des tetons. "\\ et la moralite\\ du serpent depite\\ c'est que parfois trop de cine parleur\\ peut vous donner mal au coeur\\ ou que les hommes digerent, dit-on,\\ mieux que les serpents pythons.}}{30}\relax 
+\doTocEntry\tocchapter{4}{\csname a:TocLink\endcsname{20}{x20-240004}{QQ2-20-30}{Listes}}{37}\relax 
+\doTocEntry\tocsection{4.1}{\csname a:TocLink\endcsname{21}{x21-250004.1}{QQ2-21-31}{Listes simplement cha\^in\'ees}}{37}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{21}{x21-25001}{}{4/listes.py}}{38}\relax 
+\doTocEntry\tocsection{4.2}{\csname a:TocLink\endcsname{22}{x22-260004.2}{QQ2-22-33}{Listes tri\'ees circulaires}}{39}\relax 
+\doTocEntry\toclof{4.1}{\csname a:TocLink\endcsname{22}{x22-260011}{}{\ignorespaces Liste de 0 \`a 7}}{figure}\relax 
+\doTocEntry\toclof{4.2}{\csname a:TocLink\endcsname{22}{x22-260022}{}{\ignorespaces R\'esulat de la fonction \lstinline !decoupe! sur l'exemple pr\'ec\'edent}}{figure}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{22}{x22-26003}{}{4/circulaire.py}}{45}\relax 
+\doTocEntry\tocsection{4.3}{\csname a:TocLink\endcsname{23}{x23-270004.3}{QQ2-23-37}{Listes avec partage de suffixe}}{45}\relax 
+\doTocEntry\toclof{4.3}{\csname a:TocLink\endcsname{23}{x23-270013}{}{\ignorespaces quatre listes partageant des cellules~:{} 'SE', 'PASSE', 'DEVISSE', 'DEPASSE'}}{figure}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{23}{x23-27002}{}{4/suffixes.py}}{48}\relax 
+\doTocEntry\toclol{}{\csname a:TocLink\endcsname{23}{x23-27014}{}{4/suffixes.py}}{48}\relax 
+\doTocEntry\tocchapter{5}{\csname a:TocLink\endcsname{24}{x24-280005}{QQ2-24-41}{R\'ecursion}}{49}\relax 
+\doTocEntry\tocsection{5.1}{\csname a:TocLink\endcsname{25}{x25-290005.1}{QQ2-25-42}{Fractales}}{49}\relax 
+\doTocEntry\tocsection{5.2}{\csname a:TocLink\endcsname{26}{x26-300005.2}{QQ2-26-43}{Labyrinthe}}{49}\relax 
+\doTocEntry\tocsection{5.3}{\csname a:TocLink\endcsname{27}{x27-310005.3}{QQ2-27-44}{Solitaire}}{50}\relax 

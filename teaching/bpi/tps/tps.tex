@@ -1,0 +1,49 @@
+\documentclass{book}
+\usepackage{color}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\ifdefined\HCode
+\def\pgfsysdriver{pgfsys-tex4ht.def}
+\fi
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\usepackage{graphicx}
+\usepackage[french,linesnumbered]{algorithm2e}
+\usepackage[french]{babel}
+\usepackage{hyperref}
+\usepackage{soul}
+
+\lstset{
+    basicstyle=\ttfamily,
+    language=python,
+    %numbers=left,
+    keywordstyle=\rmfamily\bfseries,
+    commentstyle=\sffamily,
+}
+
+\newcommand{\video}[1]{
+    #1
+}
+
+\title{Bases de la programmation imp\'erative\\
+Exercices de travaux pratiques}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\Css{div.lstlisting .ectt-1000 {font-family: monospace;color:blue}}
+\Css{div.lstlisting .ecss-1000 {font-family: monospace;color:green}}
+\Css{div.lstlisting .ecbx-1000 {font-family: monospace;color:red}}
+\Css{div.lstinputlisting .ectt-1000 {font-family: monospace;color:blue}}
+\Css{div.lstinputlisting .ecss-1000 {font-family: monospace;color:green}}
+\Css{div.lstinputlisting .ecbx-1000 {font-family: monospace;color:red}}
+\input{1/bases.tex}
+\input{2/iterations.tex}
+\input{3/tableaux.tex}
+\input{4/listes.tex}
+\input{5/recursion.tex}
+
+\end{document}
