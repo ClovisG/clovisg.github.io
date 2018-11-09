@@ -1,0 +1,1276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html xml:lang="fr" > 
+<head><title>Listes simplement chainees</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- 3,html --> 
+<meta name="src" content="tps.tex"> 
+<meta name="date" content="2018-09-17 10:03:00"> 
+<link rel="stylesheet" type="text/css" href="tps.css"> 
+</head><body 
+>
+   <!--l. 1--><div class="crosslinks"><p class="noindent"> [<a 
+href="tpsse17.html" >Suivant</a>]  [<a 
+href="#tailtpsse16.html">Fin</a>]  [<a 
+href="tpsch4.html#tpsse16.html" >Niveau supérieur</a>] </p></div>
+   <h3 class="sectionHead"><span class="titlemark">4.1   </span> <a 
+ id="x21-250004.1"></a>Listes simplement chaînées</h3>
+<!--l. 3--><p class="noindent" >On cherche à implémenter des listes simplement chaînées similaires à celles vues en
+TD. On dispose d&#8217;un type <span class="lstinline"><span 
+class="ectt-1000">Cellule</span></span> contenant une valeur et un pointeur vers une
+cellule suivante ainsi que d&#8217;un type <span class="lstinline"><span 
+class="ectt-1000">Liste</span></span> contenant un pointeur vers la première
+cellule, un autre vers la dernière cellule et enfin un compteur comptabilisant le
+nombre total d&#8217;éléments stockés dans la liste.
+<!--l. 12--><p class="indent" >   Une liste composée des entiers 5, 3, 2, 4 ressemble donc à<span class="frenchb-nbsp">&nbsp;</span>:
+<div class="center" 
+>
+<!--l. 13--><p class="noindent" >
+
+<!--l. 14--><p class="noindent" ><img 
+src="4/liste.png" alt="PIC"  
+></div>
+<!--l. 17--><p class="indent" >   On vous demande donc de compléter le fichier <span 
+class="ecti-1000">listes.py </span>ci-dessous puis de tester
+l&#8217;exécution.
+                                                                  
+
+                                                                  
+   <!--l. 20--><div class="lstinputlisting">
+<a 
+ id="x21-25001"></a>
+   <span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25002r1"></a></span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">!/</span><span 
+class="ecss-1000">usr</span><span 
+class="ecss-1000">/</span><span 
+class="ecss-1000">bin</span><span 
+class="ecss-1000">/</span><span 
+class="ecss-1000">env</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">python3</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25003r2"></a></span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25004r3"></a></span><span 
+class="ecss-1000">listes</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">simplements</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">chainees</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">+</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">quelques</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">operations</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25005r4"></a></span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25006r5"></a></span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">from</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">tycat</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">import</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">trace</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25007r6"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25008r7"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25009r8"></a></span><span 
+class="ecbx-1000">class</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">Cellule</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25010r9"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25011r10"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">une</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">d</span><span 
+class="ecss-1000">&#8217;</span><span 
+class="ecss-1000">une</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">liste</span><span 
+class="ecss-1000">.</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">contient</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">une</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">valeur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">et</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">un</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">pointeur</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25012r11"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">vers</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">suivante</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25013r12"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25014r13"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">pylint</span><span 
+class="ecss-1000">:</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">disable</span><span 
+class="ecss-1000">=</span><span 
+class="ecss-1000">too</span><span 
+class="cmsy-10">&minus;</span><span 
+class="ecss-1000">few</span><span 
+class="cmsy-10">&minus;</span><span 
+class="ecss-1000">public</span><span 
+class="cmsy-10">&minus;</span><span 
+class="ecss-1000">methods</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25015r14"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">__init__</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">suivant</span><span 
+class="ectt-1000">=</span><span 
+class="ectt-1000">None</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25016r15"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">=</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25017r16"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">suivant</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">=</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">suivant</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25018r17"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25019r18"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25020r19"></a></span><span 
+class="ecbx-1000">class</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">Liste</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25021r20"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25022r21"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">une</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">liste</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">simplement</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">chainee</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25023r22"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">contient</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">un</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">pointeur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">sur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">en</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">tete</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">de</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">liste</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">et</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">un</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">autre</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">sur</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25024r23"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">queue</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">de</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">liste</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25025r24"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">un</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">compteur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">permet</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">de</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">savoir</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">rapidement</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">taille</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">de</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">liste</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25026r25"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25027r26"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">__init__</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25028r27"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">tete</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">=</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">None</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25029r28"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">queue</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">=</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">None</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25030r29"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">taille</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">=</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">0</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25031r30"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25032r31"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">@trace</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25033r32"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">ajouter_en_tete</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25034r33"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25035r34"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">ajoute</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">une</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">en</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">tete</span><span 
+class="ecss-1000">.</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cout</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">:</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">O</span><span 
+class="ecss-1000">(1).</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25036r35"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25037r36"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">TODO</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25038r37"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">pass</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25039r38"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25040r39"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">@trace</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25041r40"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">ajouter_en_queue</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25042r41"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25043r42"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">ajoute</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">une</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">en</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">queue</span><span 
+class="ecss-1000">.</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cout</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">:</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">O</span><span 
+class="ecss-1000">(1).</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25044r43"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">on</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">peut</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">le</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">faire</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">rapidement</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">grace</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">au</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">pointeur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">de</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">queue</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25045r44"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25046r45"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">TODO</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25047r46"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">pass</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25048r47"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25049r48"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">cellules</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25050r49"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25051r50"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">iterateur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">sur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">chaque</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25052r51"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25053r52"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">TODO</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25054r53"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">pass</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25055r54"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25056r55"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">recherche</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25057r56"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25058r57"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">renvoie</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">premiere</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">contenant</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">valeur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">donnee</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25059r58"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25060r59"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">TODO</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25061r60"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">pass</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25062r61"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25063r62"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">@trace</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25064r63"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">supprimer</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25065r64"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25066r65"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">enleve</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">premiere</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">cellule</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">contenant</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">la</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">valeur</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">donnee</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25067r66"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25068r67"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">TODO</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25069r68"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">pass</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25070r69"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25071r70"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">__str__</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">self</span><span 
+class="ectt-1000">):</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25072r71"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25073r72"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">affiche</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">(</span><span 
+class="ecss-1000">val1</span><span 
+class="ecss-1000">,</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">val2</span><span 
+class="ecss-1000">,</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">val3</span><span 
+class="ecss-1000">....)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25074r73"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25075r74"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">#</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">TODO</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25076r75"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">return</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25077r76"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25078r77"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25079r78"></a></span><span 
+class="ecbx-1000">def</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">test_listes</span><span 
+class="ectt-1000">():</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25080r79"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25081r80"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">on</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">teste</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">toutes</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">les</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">operations</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">de</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">base</span><span 
+class="ecss-1000">,</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">dans</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">differentes</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">configurations</span><span 
+class="ecss-1000">.</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25082r81"></a></span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">&#x00A0;</span><span 
+class="ecss-1000">"""</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25083r82"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">=</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">Liste</span><span 
+class="ectt-1000">()</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25084r83"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">ajouter_en_tete</span><span 
+class="ectt-1000">(3)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25085r84"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">ajouter_en_tete</span><span 
+class="ectt-1000">(5)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25086r85"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">ajouter_en_queue</span><span 
+class="ectt-1000">(2)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25087r86"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">ajouter_en_queue</span><span 
+class="ectt-1000">(4)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25088r87"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">print</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25089r88"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">print</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">recherche</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">recherche</span><span 
+class="ectt-1000">(3).</span><span 
+class="ectt-1000">valeur</span><span 
+class="ectt-1000">)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25090r89"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">print</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">adresses</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">des</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">cellules</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25091r90"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">join</span><span 
+class="ectt-1000">([</span><span 
+class="ecbx-1000">hex</span><span 
+class="ectt-1000">(</span><span 
+class="ecbx-1000">id</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">c</span><span 
+class="ectt-1000">))</span><span 
+class="ecbx-1000">for</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">c</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">in</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">cellules</span><span 
+class="ectt-1000">()]))</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25092r91"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">supprimer</span><span 
+class="ectt-1000">(5)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25093r92"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">print</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">apres</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">suppression</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">de</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">5</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25094r93"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">.</span><span 
+class="ectt-1000">supprimer</span><span 
+class="ectt-1000">(4)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25095r94"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ecbx-1000">print</span><span 
+class="ectt-1000">(</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">apres</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">suppression</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">de</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">4</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x2423;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">,</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">exemple</span><span 
+class="ectt-1000">)</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25096r95"></a></span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25097r96"></a></span><span 
+class="ecbx-1000">if</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">__name__</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">==</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">__main__</span><span 
+class="ectt-1000">"</span><span 
+class="ectt-1000">:</span><span 
+class="ectt-1000">&#x00A0;</span><br /><span class="label"><a 
+ id="x21-25098r97"></a></span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">&#x00A0;</span><span 
+class="ectt-1000">test_listes</span><span 
+class="ectt-1000">()</span>
+   
+   </div>
+<!--l. 21--><p class="noindent" ><a 
+href="4/listes.py" >listes.py</a>
+<!--l. 23--><p class="indent" >   Pour vérifier votre code, on vous fournit le fichier de tests suivant<span class="frenchb-nbsp">&nbsp;</span>: <a 
+href="4/test_liste.py" >test_liste.py</a>
+                                                                  
+
+                                                                  
+   <!--l. 1--><div class="crosslinks"><p class="noindent"> [<a 
+href="tpsse17.html" >Suivant</a>]  [<a 
+href="tpsse16.html" >Début</a>]  [<a 
+href="tpsch4.html#tpsse16.html" >Niveau supérieur</a>] </p></div>
+<!--l. 1--><p class="indent" >   <a 
+ id="tailtpsse16.html"></a>  
+</body></html> 
