@@ -9,9 +9,10 @@ subtitle: (2018-2019)
 * Programming with Python (3MMBPI)
 * Introduction to data science (3MMISD)
 * Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
-* Application of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
+* Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
+   * [Lecture 1](teaching/asdia/ctd1/intro-ai-appl-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization.
 * Principles and methods in statistics (3MMPMS)
-
+* Algorithmics (3MMALGO)
 
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
