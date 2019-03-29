@@ -25,8 +25,8 @@ description: Research and teaching in computer science and bioinformatics.
 navbar-links:
   About/Contact: "aboutme"
   Teaching:
-    - Past: "pastteaching"
     - Current: "currentteaching"
+    - Past: "pastteaching"
   Research:
     - Research interests:  "research"
     - GitHub Page: "https://github.com/ClovisG/"
