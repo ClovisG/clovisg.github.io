@@ -11,7 +11,7 @@ subtitle: (2018-2019)
 * Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
    * [Lecture 1](teaching/asdia/ctd1/intro-ai-appl-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization.
-   * Lecture 2, [hands-on](teaching/asdia/ctd2/ibd.Rmd) predicting Inflammatory Bowel Disease from gut microbiome structure.
+   * Lecture 2, [hands-on](teaching/asdia/ctd2/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure.
 * Principles and methods in statistics (3MMPMS)
 * Algorithmics (3MMALGO)
 
