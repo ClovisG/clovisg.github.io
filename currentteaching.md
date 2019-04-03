@@ -12,7 +12,7 @@ subtitle: (2018-2019)
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
    * [Lecture 1](teaching/asdia/ctd1/intro-ai-appl-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization.
    * [Lecture 2](teaching/asdia/ctd2/intro-ai-appl-ctd2.pdf): Regularization, experimental evidence of the curse of dimensionality, logitic regression.
-   * Lecture 3: [hands-on](teaching/asdia/ctd2/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure and its [data](teaching/asdia/ctd2/ibdStart.zip).
+   * Lecture 3: [hands-on](teaching/asdia/ctd3/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure and its [data](teaching/asdia/ctd3/ibdStart.zip).
 * Principles and methods in statistics (3MMPMS)
 * Algorithmics (3MMALGO)
 
