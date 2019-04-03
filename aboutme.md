@@ -10,7 +10,7 @@ Contact: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)
 
 ### Short CV
 
-* Assistant Professor in data science at [Ensimag](http://ensimag.grenoble-inp.fr/welcome/) (Grenoble INP), researcher at [DATA/LJK](https://ljk.imag.fr/Statistique/index_en.html)
+* Assistant Professor in data science at [Ensimag](http://ensimag.grenoble-inp.fr/en) (Grenoble INP), researcher at [DATA/LJK](https://ljk.imag.fr/Statistique/index_en.html)
 * PostDoc at the Max Planck Institute in Göttingen in the [SoedingLab](http://www.mpibpc.mpg.de/soeding)
 * PhD in Computer science at Inria Rennes in DyLiss team [DyLiss](http://www.irisa.fr/dyliss/)
 * MSc [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch/)
