@@ -4,7 +4,7 @@ title: Teaching
 subtitle: (2018-2019)
 ---
 
-### [Ensimag](http://ensimag.grenoble-inp.fr/welcome/)
+### [Ensimag](http://ensimag.grenoble-inp.fr/en)
 
 * Programming with Python (3MMBPI)
 * Introduction to data science (3MMISD)
