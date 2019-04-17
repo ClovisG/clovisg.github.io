@@ -13,6 +13,7 @@ subtitle: (2018-2019)
    * [Lecture 1](teaching/asdia/ctd1/intro-ai-appl-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization.
    * [Lecture 2](teaching/asdia/ctd2/intro-ai-appl-ctd2.pdf): Regularization, experimental evidence of the curse of dimensionality, logitic regression.
    * [Lecture 3](teaching/asdia/ctd3/intro-ai-appl-ctd3.pdf): [hands-on](teaching/asdia/ctd3/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure and its [data](teaching/asdia/ctd3/ibdStart.zip).
+   * [Lecture 4](teaching/asdia/ctd4/intro-ai-appl-ctd4.pdf): Imbalanced datasets
 * Principles and methods in statistics (3MMPMS)
 * Algorithmics (3MMALGO)
 
