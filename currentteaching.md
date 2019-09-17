@@ -27,6 +27,7 @@ subtitle: (2019-2020)
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
 *  Information Retrieval
+
 <!--* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
      Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
    * [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
