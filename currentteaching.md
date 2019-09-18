@@ -6,8 +6,8 @@ subtitle: (2019-2020)
 
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
 
-* Computational biology
-	* Lecture 1: Introduction, presentation of the project. [Sequencing data](teaching/protein-structure-prediction/sequences.md)
+* Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
+	* Lecture 1: Introduction, [presentation of the project](teaching/protein-structure-prediction/session1.html). [Sequencing data](teaching/protein-structure-prediction/sequences.md)
 
 * Information Retrieval
 
@@ -16,7 +16,7 @@ subtitle: (2019-2020)
 * Probability
 
 <!--* Programming with Python (3MMBPI)
-[//]: # * Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
+* Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
    * [Lecture 1](teaching/asdia/ctd1/intro-ai-appl-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization.
    * [Lecture 2](teaching/asdia/ctd2/intro-ai-appl-ctd2.pdf): Regularization, experimental evidence of the curse of dimensionality, logitic regression.
