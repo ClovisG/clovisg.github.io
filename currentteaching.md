@@ -4,10 +4,13 @@ title: Teaching
 subtitle: (2019-2020)
 ---
 
+
+Older lectures [here](pastteaching.md).
+
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
 
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
-	* Lecture 1: Introduction, [presentation of the project](teaching/protein-structure-prediction/session1.html). [Sequencing data](teaching/protein-structure-prediction/sequences.md)
+	* Lecture 1: Introduction, [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md)
 
 * Information Retrieval
 
