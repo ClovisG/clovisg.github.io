@@ -31,7 +31,7 @@ Older lectures [here](pastteaching.md).
 
 *  Information Retrieval
 
- * [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
+	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
      Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
 
 
