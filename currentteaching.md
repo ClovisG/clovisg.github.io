@@ -15,7 +15,7 @@ Older lectures [here](pastteaching.md).
 
 * Information Retrieval
 	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/hands-on-ir)
-
+	* Lecture 1 and 2: [Slides](teaching/accesInfo/ctd1-IR.pdf)
 
 * Principles and methods in statistics (3MMPMS)
 
