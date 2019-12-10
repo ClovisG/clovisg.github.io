@@ -14,6 +14,8 @@ Older lectures [here](pastteaching.md).
 	* Lecture 1: [Slides](teaching/protein-structure-prediction/ctd1.pdf), [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md)
 
 * Information Retrieval
+	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/hands-on-ir)
+
 
 * Principles and methods in statistics (3MMPMS)
 
