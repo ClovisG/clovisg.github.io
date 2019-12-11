@@ -13,6 +13,7 @@ Older lectures [here](pastteaching.md).
 	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
 	* Lecture 1: [Slides](teaching/protein-structure-prediction/ctd1.pdf), [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md)
 	* Lecture 3: [FT-COMAR software](teaching/protein-structure-prediction/ft-comar.tgz)
+	* Lecture 4: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
 
 * Information Retrieval
 	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/hands-on-ir)
