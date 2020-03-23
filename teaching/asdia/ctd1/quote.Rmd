@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ***
 
-**Important**: You should form teams of 3 persons.
+**Important**: You should form teams of 2 persons.
 
 Please use this template, knit-it to Html and drop it on Teide, *one per team*.
 
