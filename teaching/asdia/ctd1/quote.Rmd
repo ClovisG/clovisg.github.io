@@ -1,0 +1,128 @@
+---
+title: "Asdia - Part III - Assignment 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+
+**Important**: You should form teams of 3 persons.
+
+Please use this template, knit-it to Html and drop it on Teide, *one per team*.
+
+You can use the following Riot channel https://riot.ensimag.fr/#/room/#ASDIA:ensimag.fr, I'll be present to answer live questions during the lecture slots. Do not hesitate to post your understandings and mis-understandings out of the time slots, I won't judge it, I'll only judge your **involvment and curiosity**.
+
+You can send me emails (clovis.galiez@grenoble-inp.fr) for specific questions, and I'll answer publicly on the riot channel.
+
+***
+
+
+
+## AI and society
+Find two AI applications (can be softwares, proof of concepts, etc.), one you would characterize as good, one as bad. Explain your point of view in a one-page arguments.
+	
+Try to think in particular what would be the **societal impacts** if the examples you chose were generalized in the world/in the long run.
+
+% TODO Answer
+
+## AI and ecology
+Evolved Transformer is a version of Transformer whose neural network architecture has been optimized using NAS (Neural Architecture Search).
+How many Paris-New York by plane is equivalent to the training of the NLP model *Evolved Transformer*, according to Table 3 of Strubell et al.?
+
+
+% TODO Answer
+
+
+
+## Application to microbial bioinformatics
+
+How many protein coding genes are contained in a standard human gut?
+
+
+% TODO Answer
+
+Microbes are carrying out many biochemical reactions in our gut. Imbalance of microbial abundances, presence of pathogenic genes, absence of mandatory bacteria can be source of human diseases.
+
+Let's denote by $x$ the vector of abundances (of dimension $S\approx 1000$) of microbial species in an individual gut. Let's model the prediction of the the individual to be diseased ($D=1$) by a function $f_w(x)$ such that $f_w(x)\approx p(D=1|x)$. 
+If you have $N$ ($N\approx 100$) examples $(x,D)$ for which you know the microbial abundances and the health state of the $N$ individuals, give a loss function to minimize with respect to $w$ so that $f_w(x)\approx p(D=1|x)$:
+
+% TODO Answer
+
+Given the order of magnitude of $N$ and $S$, what problem will you face?
+
+% TODO Answer
+
+What machine learning strategy can you use to tackle this issue?
+
+% TODO Answer
+
+
+# Technical questions
+
+## Curse of dimensionality
+Suppose you have a model with one binary parameter $\theta$. Given the input, how many outputs can your model describe?
+
+% TODO Answer
+
+
+Suppose you have a model with $N$ binary parameters $\theta_i$. Given the input, how many outputs can your model describe
+
+% TODO Answer
+
+
+## Ridge regularization
+
+Explain quickly what is regularization and how it helps to tackle the curse of dimensionality.
+
+% TODO Answer
+x
+
+### The optimization point of view
+Consider the linear model $Y=\sum \vec{\beta}. \vec{x_i} + \epsilon$.
+
+
+Show that the maximum likelihood solution is the same as the solution of the following optimization problem:
+
+<center>
+	$\min\limits_{\vec{\beta}} \sum\limits_{i=0}^N (y_i - \vec{\beta}. \vec{x_i})^2$
+</center>
+
+
+% TODO Answer
+
+
+Show that putting a Gaussian prior centered on zero on the parameters is the same as solving the following optimization problem:
+
+<center>
+	$\min\limits_{\vec{\beta}} \sum\limits_{i=0}^N (y_i - \vec{\beta}. \vec{x_i})^2 + \lambda ||\vec{\beta}||_2^2$
+</center>
+
+% TODO Answer
+
+### The Bayesian point of view
+Consider a simple on-dimensional linear model:
+
+<center>
+$\epsilon\sim \mathcal{N}(0,\sigma^2)$
+
+$\beta \sim \mathcal{N}(5,\eta^2)$
+
+$Y=\beta x + \epsilon$
+</center>
+
+Write the likelihood of $\beta$ for observing $(y_1,x_1),...(y_N,x_N)$. Deduce for which $\beta$ it reaches its maximum.
+
+% TODO Answer
+
+For which $\beta$ the *posterior* probability distribution $p(\beta|Y_1=y_1, ...Y_N=y_N) = \frac{p(Y_1=y_1, ...Y_N=y_N|\beta).p(\beta)}{p(Y_1=y_1, ...Y_N=y_N)}$ is maximal?
+
+% TODO Answer
+
+Notice that the prior on $\beta$ is equivalent to putting a fake data point in the training set. What are its coordinates?
+
+
+% TODO Answer
+
