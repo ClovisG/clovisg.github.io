@@ -4,7 +4,7 @@ title: Research interests
 subtitle: Data science for microbiology
 ---
 
-From geochemical cycles to human health, the microbiome play key roles in their ecosystems. Sampling directly from the environment the DNA information contained in their genome - coined as metagenomics - allows to study the composition, diversity and functions of the organisms in microbiomes.
+From geochemical cycles to human health, microbiomes play key roles in ecosystems. By sampling genomic DNA information directly from the environment - coined as metagenomics - we are able to study the composition, diversity and functions of the micro-organisms in their biome.
 
 I am interested in developing data science methods to unveil information from microbiomes through the lens of DNA information. More specifically, I am currently working on the following topics:
 
