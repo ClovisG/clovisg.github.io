@@ -16,7 +16,7 @@ I am interested in developing data science methods to study microbiomes through 
 
 * Theory of auto-encoders
 * Optimal transport
-* Properties of some optimization algorithm
+* Properties of some optimization algorithms
 
 
 ### Applications
