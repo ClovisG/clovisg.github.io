@@ -61,8 +61,7 @@ I have a collaboration with [In&Motion](https://www.inemotion.com/en/) for large
 
 ### Grants
 
-2019: GdR Stat&Santé (4k€), Grenoble DataInstitute (10k€)
-2020: Maimosine (17k€), PersyvalLab (108k€)
-
+* 2020: Maimosine (17k€), PersyvalLab (108k€)
+* 2019: GdR Stat&Santé (4k€), Grenoble DataInstitute (10k€)
 
 
