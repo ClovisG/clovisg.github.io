@@ -29,6 +29,26 @@ I am interested in developing data science methods to study microbiomes through 
 * Climate change impact on biodiversity
 * Glacier mass balance modelling
 
+### PhD Students
+
+* Benjamin Fayolle (2020-): Quantifying the Impact of Environmental Parameters on Biodiversity.
+
+### Alumni
+
+2020:
+* MSc1 internships: M. Roux, M. Schneider
+
+2019:
+* PhD student (visitor): B. Matougui
+* MSc1 internships: M. Hérault, A. Poché
+
+2018
+* Msc2 internships: V. Zinchenko, C. Norroy
+* MSc1 internships: R. Zhang
+
+2017:
+* MSc1 internships: V. Mudryi, V. Zinchenko (M1)
+
 ### Publications
 
 See my [Scholar page](https://scholar.google.com/citations?user=vmTnjSYAAAAJ).
@@ -42,7 +62,7 @@ I have a collaboration with [In&Motion](https://www.inemotion.com/en/) for large
 ### Grants
 
 2019: GdR Stat&Santé (4k€), Grenoble DataInstitute (10k€)
-2020: Maimosine (17k€)
+2020: Maimosine (17k€), PersyvalLab (108k€)
 
 
 
