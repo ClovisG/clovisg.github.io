@@ -27,6 +27,7 @@ Older lectures [here](pastteaching.md).
 * Probability
 
 * Pobabilistic methods for machine learning
+
 <!--
 
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
@@ -45,11 +46,14 @@ Older lectures [here](pastteaching.md).
    * [Lecture 4](teaching/asdia/ctd4/intro-ai-appl-ctd4.pdf): Imbalanced datasets
 * Algorithmics (3MMALGO)
 -->
+
+
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
 *  Information Retrieval
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
      Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
+
 <!--	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
 		* Documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
 	* Lecture 3 (no slides)
