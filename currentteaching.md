@@ -8,27 +8,33 @@ subtitle: (2019-2020)
 Older lectures [here](pastteaching.md).
 
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
-
+<!--
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
 	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
 	* Lecture 1: [Slides](teaching/protein-structure-prediction/ctd1.pdf), [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md)
 	* Lecture 3: [FT-COMAR software](teaching/protein-structure-prediction/ft-comar.tgz)
 	* Lecture 4: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
+-->
 
-* Information Retrieval
+<!--* Information Retrieval
 	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/hands-on-ir)
 	* Lecture 1 and 2: [Slides](teaching/accesInfo/ctd1-IR.pdf)
 	* Lecture 3: [Slides](teaching/accesInfo/ctd3-IR.pdf)
+-->
 
 * Principles and methods in statistics (3MMPMS)
 
 * Probability
+
+* Pobabilistic methods for machine learning
+<!--
 
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
    * [Lecture 1](teaching/asdia/ctd1/slides-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization. [Assignment](teaching/asdia/ctd1/quote.tar).
    * [Lecture 2](teaching/asdia/ctd2/slides-ctd2.pdf): Lasso regularization, logistic regression. [Assignment](teaching/asdia/ctd2/quote2.zip).
    * [Lecture 3](teaching/asdia/ctd3/slides-ctd3.pdf): [hands-on](teaching/asdia/ctd3/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure and its [data](teaching/asdia/ctd3/ibdStart.zip).
    * [Lecture 4](teaching/asdia/ctd4/slides-ctd4.pdf): Redundant and imbalanced datasets, [Assignment](teaching/asdia/ctd4/quote4.zip).
+-->
 
 <!--* Programming with Python (3MMBPI)
 * Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
@@ -44,11 +50,13 @@ Older lectures [here](pastteaching.md).
 *  Information Retrieval
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
      Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
-	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
+<!--	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
 		* Documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
 	* Lecture 3 (no slides)
-<!--		* [Hands-on session](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) -->
+		* [Hands-on session](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) 
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
+-->
+
 
 
 <!--*
