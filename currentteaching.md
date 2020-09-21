@@ -53,10 +53,10 @@ Older lectures [here](pastteaching.md).
 *  Information Retrieval
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
      Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
+	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
+		* (Optional) documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
 
-<!--	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
-		* Documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
-	* Lecture 3 (no slides)
+<!--	* Lecture 3 (no slides)
 		* [Hands-on session](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) 
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
 -->
