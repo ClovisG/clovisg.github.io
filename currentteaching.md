@@ -8,12 +8,13 @@ subtitle: (2020-2021)
 Older lectures [here](pastteaching.md).
 
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
-<!--
+
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
 	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
 	* Lecture 1: [Slides](teaching/protein-structure-prediction/ctd1.pdf), [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md)
-	* Lecture 3: [FT-COMAR software](teaching/protein-structure-prediction/ft-comar.tgz)
-	* Lecture 4: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
+<!--
+	* Lecture 2: [FT-COMAR software](teaching/protein-structure-prediction/ft-comar.tgz)
+	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
 -->
 
 <!--* Information Retrieval
