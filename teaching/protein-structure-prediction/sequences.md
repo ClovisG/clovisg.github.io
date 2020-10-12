@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sequencing in progress...
+title: Sequencing done!
 ---
 
 ![Working hard!](chemist.jpg)
