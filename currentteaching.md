@@ -30,6 +30,8 @@ Older lectures [here](pastteaching.md).
 
 * Information Retrieval
 	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject)
+
+
 <!--
 
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
