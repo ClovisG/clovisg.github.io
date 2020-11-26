@@ -28,6 +28,8 @@ Older lectures [here](pastteaching.md).
 
 * Pobabilistic methods for machine learning
 
+* Information Retrieval
+	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject)
 <!--
 
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
@@ -56,7 +58,8 @@ Older lectures [here](pastteaching.md).
 	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
 		* (Optional) documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
 	* Lecture 3 (no slides)
-		* [Hands-on session](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) 
+		* Hands-on session 
+<!-- ](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf)  -->
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
 
 
