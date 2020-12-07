@@ -29,7 +29,9 @@ Older lectures [here](pastteaching.md).
 * Pobabilistic methods for machine learning
 
 * Information Retrieval
-	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject)
+	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
+	* Lecture 2 (Slides to come)
+		* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject)
 
 
 <!--
