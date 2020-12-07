@@ -32,6 +32,7 @@ Older lectures [here](pastteaching.md).
 	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
 	* Lecture 2 (Slides to come)
 		* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject)
+		* [Video topics structure](teaching/accesInfo/Topic_model_scheme.webm)
 
 
 <!--
