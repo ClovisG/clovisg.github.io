@@ -30,7 +30,7 @@ Older lectures [here](pastteaching.md).
 
 * Information Retrieval
 	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
-	* Lecture 2 (Slides to come)
+	* [Lecture 2[(teaching/accesInfo/ctd2-IR.pdf)
 		* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject)
 		* [Video topics structure](teaching/accesInfo/Topic_model_scheme.webm)
 
