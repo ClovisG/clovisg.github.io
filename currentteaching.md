@@ -24,9 +24,11 @@ Older lectures [here](pastteaching.md).
 
 * Principles and methods in statistics (3MMPMS)
 
+* Algorithmics
+
 * Probability
 
-* Pobabilistic methods for machine learning
+* Probabilistic methods for machine learning
 
 * Information Retrieval
 	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
@@ -35,6 +37,8 @@ Older lectures [here](pastteaching.md).
 		* [Video topics structure](teaching/accesInfo/Topic_model_scheme.webm)
 	* [Lecture 3](teaching/accesInfo/ctd3-IR.pdf)
 	* [Lecture 4](teaching/accesInfo/ctd4-IR.pdf)
+
+* Introduction to artificial intelligence [Slides](teaching/ai/slides.pdf)
 
 
 <!--
