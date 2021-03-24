@@ -35,6 +35,9 @@ I am interested in developing data science methods to study microbiomes through 
 
 ### Alumni
 
+2021:
+* LSc internship (6 months): R. Bucio
+
 2020:
 * MSc1 internships: M. Roux, M. Schneider
 
