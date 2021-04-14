@@ -45,12 +45,8 @@ Older lectures [here](pastteaching.md).
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
    * [Lecture 1](teaching/asdia/ctd1/slides-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization. [Assignment](teaching/asdia/ctd1/quote.tar).
    * [Lecture 2](teaching/asdia/ctd2/slides-ctd2.pdf): Lasso regularization, logistic regression. [Assignment](teaching/asdia/ctd2/quote2.zip).
-
-<!--
-
    * [Lecture 3](teaching/asdia/ctd3/slides-ctd3.pdf): [hands-on](teaching/asdia/ctd3/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure and its [data](teaching/asdia/ctd3/ibdStart.zip).
-   * [Lecture 4](teaching/asdia/ctd4/slides-ctd4.pdf): Redundant and imbalanced datasets, [Assignment](teaching/asdia/ctd4/quote4.zip).
--->
+   * [Lecture 4](teaching/asdia/ctd4/slides-ctd4.pdf): Redundant and imbalanced datasets, [Assignment (optional)](teaching/asdia/ctd4/quote4.zip).
 
 <!--* Programming with Python (3MMBPI)
 * Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
