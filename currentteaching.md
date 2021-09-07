@@ -10,13 +10,20 @@ Older lectures [here](pastteaching.md).
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
 
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
+
+<!--
+
 	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
 	* Lecture 1: [Slides](teaching/protein-structure-prediction/ctd1.pdf), [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md) [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm)
 	* Lecture 2: No slides.
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
 
+-->
 
-<!--* Information Retrieval
+* Information Retrieval
+
+<!--
+
 	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/hands-on-ir)
 	* Lecture 1 and 2: [Slides](teaching/accesInfo/ctd1-IR.pdf)
 	* Lecture 3: [Slides](teaching/accesInfo/ctd3-IR.pdf)
@@ -29,7 +36,7 @@ Older lectures [here](pastteaching.md).
 * Probability
 
 * Probabilistic methods for machine learning
-
+<!--
 * Information Retrieval
 	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
 	* [Lecture 2](teaching/accesInfo/ctd2-IR.pdf)
@@ -47,6 +54,7 @@ Older lectures [here](pastteaching.md).
    * [Lecture 2](teaching/asdia/ctd2/slides-ctd2.pdf): Lasso regularization, logistic regression. [Assignment](teaching/asdia/ctd2/quote2.zip).
    * [Lecture 3](teaching/asdia/ctd3/slides-ctd3.pdf): [hands-on](teaching/asdia/ctd3/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure and its [data](teaching/asdia/ctd3/ibdStart.zip).
    * [Lecture 4](teaching/asdia/ctd4/slides-ctd4.pdf): Redundant and imbalanced datasets, [Assignment (optional)](teaching/asdia/ctd4/quote4.zip).
+-->
 
 <!--* Programming with Python (3MMBPI)
 * Machine learning [semester project](https://ensiwiki.ensimag.fr/index.php?title=Projet_de_sp%C3%A9cialit%C3%A9_-_Pr%C3%A9diction_d%27avalanches) (in French, restricted access) for avalanche prediction
@@ -62,14 +70,16 @@ Older lectures [here](pastteaching.md).
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
 *  Information Retrieval
+<!--
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
 	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
 		* (Optional) documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
 	* Lecture 3 (no slides)
 		* Hands-on session 
-<!-- ](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf)  -->
+[syllabus](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) 
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
+-->
 
 
 
