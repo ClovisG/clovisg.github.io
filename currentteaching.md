@@ -36,6 +36,7 @@ Older lectures [here](pastteaching.md).
 * Probability
 
 * Probabilistic methods for machine learning
+
 <!--
 * Information Retrieval
 	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
@@ -54,6 +55,7 @@ Older lectures [here](pastteaching.md).
    * [Lecture 2](teaching/asdia/ctd2/slides-ctd2.pdf): Lasso regularization, logistic regression. [Assignment](teaching/asdia/ctd2/quote2.zip).
    * [Lecture 3](teaching/asdia/ctd3/slides-ctd3.pdf): [hands-on](teaching/asdia/ctd3/ibd.zip) predicting Inflammatory Bowel Disease from gut microbiome structure and its [data](teaching/asdia/ctd3/ibdStart.zip).
    * [Lecture 4](teaching/asdia/ctd4/slides-ctd4.pdf): Redundant and imbalanced datasets, [Assignment (optional)](teaching/asdia/ctd4/quote4.zip).
+
 -->
 
 <!--* Programming with Python (3MMBPI)
@@ -70,6 +72,7 @@ Older lectures [here](pastteaching.md).
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
 *  Information Retrieval
+
 <!--
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
@@ -79,11 +82,8 @@ Older lectures [here](pastteaching.md).
 		* Hands-on session 
 [syllabus](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) 
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
--->
 
-
-
-<!--*
+*
 [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf)
 
    * [Hands-on session](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) and its [bigger dataset](https://wetransfer.com/downloads/508fd41429c99e8f064a12dd14157d1020181106173657/eca7d0702f9ae4f2952b2a3c10ab49da20181106173657/ef3671) (temporary link)
