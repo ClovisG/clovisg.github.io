@@ -29,6 +29,16 @@ document.addEventListener('DOMContentLoaded', function(e) {
 });
 </script>
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
 
 
 
@@ -235,7 +245,7 @@ padding-left: 1rem;
 <h4><a href="https://project-management-knowledge.com/definitions/w/work-package/">WP1</a>:</h4>
 <ul>
 <li><p><a href="https://en.wikipedia.org/wiki/Task_(project_management)">T1</a> - one tool that takes two simple <a href="https://en.wikipedia.org/wiki/FASTA_format">FASTA</a> sequencing files (Illumina reads) and outputs a list of <a href="https://en.wikipedia.org/wiki/Single-nucleotide_polymorphism">SNP</a>s (different from <a href="https://en.wikipedia.org/wiki/Scottish_National_Party#Current_ideology">SNP</a>),</p></li>
-<li><p>T2 (optional) - one tool that takes a multiple sequence alignment in standard FASTA file format and outputs a protein structure.</p></li>
+<li><p>T2 (optional) - Apply your tool to identify mutations between two variants of SARS-Cov-2</p></li>
 </ul>
 </div>
 <div id="wp2" class="section level4">
@@ -255,14 +265,14 @@ padding-left: 1rem;
 </div>
 <div id="evaluation-of-your-project" class="section level2">
 <h2>Evaluation of your project</h2>
-<p>The final evaluation of your proposal will take into account:</p>
+<p>The final evaluation of your proposal (max. 5 pages) will take into account:</p>
 <ul>
-<li>the soundness of your approach (description and mathematical justification of the underlying statistical model)</li>
+<li>the soundness of your approach (description and mathematical justification of the underlying statistical model of your method)</li>
 <li>algorithmic complexity (more than linear time is not allowed)</li>
-<li>the empirical proof you provide to assess the performance of your method on your own simulated data (e.g. <a href="https://en.wikipedia.org/wiki/K-mer">k-mer</a> abundance simulation)</li>
+<li>the empirical proof (e.g. using <a href="https://en.wikipedia.org/wiki/K-mer">k-mer</a> abundance simulation) to assess the performance of your method (e.g. up to what sequencing error rate you estimate that your method is robust)</li>
 <li>the application on the data provided (correctness of the identified gene)</li>
 <li>the biological soundness of the identified mutated gene</li>
-<li>the <strong>clarity and simplicity</strong> of the provided code (simple execution like ‘python3 snpDetect.py readsA.fasta readsB.fasta’, and output a list of SNPs)</li>
+<li>the <strong>clarity and simplicity</strong> of the provided code (simple execution like ‘python3 snpDetect.py readsA.fasta readsB.fasta’, that outputs the list of SNPs)</li>
 </ul>
 </div>
 
