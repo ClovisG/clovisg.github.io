@@ -34,7 +34,7 @@ Older lectures [here](pastteaching.md).
 
 * Probabilistic methods for machine learning
 
-<!--
+
 * Information Retrieval
 	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
 	* [Lecture 2](teaching/accesInfo/ctd2-IR.pdf)
@@ -43,9 +43,10 @@ Older lectures [here](pastteaching.md).
 	* [Lecture 3](teaching/accesInfo/ctd3-IR.pdf)
 	* [Lecture 4](teaching/accesInfo/ctd4-IR.pdf)
 
+
 * Introduction to artificial intelligence [Slides](teaching/ai/slides.pdf)
 
-
+<!--
 
 * Applications of data science and artificial intelligence (4MMASDIA): case study in metagenomics and medicine.
    * [Lecture 1](teaching/asdia/ctd1/slides-ctd1.pdf): Introduction to case studies of the lecture series, curse of dimensionality, regularization. [Assignment](teaching/asdia/ctd1/quote.tar).
