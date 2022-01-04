@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Teaching
-subtitle: (2020-2021)
 ---
 
 
