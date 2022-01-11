@@ -15,10 +15,16 @@ Older lectures [here](pastteaching.md).
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
 
 
+
+
 * Stat inférentielle pour la biologie
 	* Lecture 1 : introduction to protein structure prediction. [Slides](teaching/statInfBio/lecture1.pdf).
 
+
+
 * Information Retrieval
+
+
 
 <!--
 
