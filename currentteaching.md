@@ -9,16 +9,24 @@ Older lectures [here](pastteaching.md).
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
 
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
+
+<!--
+
+
 	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
 	* Lecture 1: [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm), [Slides](teaching/protein-structure-prediction/ctd1.pdf)
 	* Lecture 2: No slides.
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
 
+-->
 
 
 
 * Stat inférentielle pour la biologie
+
+<!--
 	* Lecture 1 : introduction to protein structure prediction. [Slides](teaching/statInfBio/lecture1.pdf).
+-->
 
 
 
@@ -41,6 +49,7 @@ Older lectures [here](pastteaching.md).
 
 * Probabilistic methods for machine learning
 
+<!--
 
 * Information Retrieval
 	* [Lecture 1](teaching/accesInfo/ctd1-IR.pdf)
@@ -49,6 +58,7 @@ Older lectures [here](pastteaching.md).
 		* [Video topics structure](teaching/accesInfo/Topic_model_scheme.webm)
 	* [Lecture 3](teaching/accesInfo/ctd3-IR.pdf)
 	* [Lecture 4](teaching/accesInfo/ctd4-IR.pdf)
+-->
 
 
 * Introduction to artificial intelligence [Slides](teaching/ai/slides.pdf)
@@ -82,10 +92,12 @@ Older lectures [here](pastteaching.md).
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
 
+<!--
 
 
 	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf) 
 		* (Optional) documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
+-->
 
 <!-- 
 	* Lecture 3 (no slides)
