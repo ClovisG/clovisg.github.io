@@ -91,11 +91,10 @@ Older lectures [here](pastteaching.md).
 
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
+	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf) 
 
 <!--
 
-
-	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf) 
 		* (Optional) documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
 -->
 
