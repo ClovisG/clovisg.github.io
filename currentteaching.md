@@ -36,7 +36,7 @@ Older lectures [here](pastteaching.md).
 
 <!--
 
-	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/hands-on-ir)
+	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
 	* Lecture 1 and 2: [Slides](teaching/accesInfo/ctd1-IR.pdf)
 	* Lecture 3: [Slides](teaching/accesInfo/ctd3-IR.pdf)
 -->
@@ -98,10 +98,12 @@ Older lectures [here](pastteaching.md).
 		* (Optional) documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
 -->
 
+	* [Lecture 3](teaching/mastereBigData/ir/ctd2/ctd2-IR-bis.pdf) 
+	* Lecture 4 (no slides)
+		* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
+[syllabus](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/-/raw/master/doc/tpWikiSearchEngine.pdf?inline=false) 
 <!-- 
-	* Lecture 3 (no slides)
-		* Hands-on session 
-[syllabus](https://github.com/ClovisG/WikiSearchEngine/raw/master/doc/tpWikiSearchEngine.pdf) 
+
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
 
 *
