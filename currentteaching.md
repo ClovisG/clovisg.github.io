@@ -21,7 +21,6 @@ Older lectures [here](pastteaching.md).
 
 
 
-* Stat inférentielle pour la biologie
 
 <!--
 	* Lecture 1 : introduction to protein structure prediction. [Slides](teaching/statInfBio/lecture1.pdf).
