@@ -11,6 +11,8 @@ Older lectures [here](pastteaching.md).
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
 	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
 	* Lecture 1: [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm), [Slides](teaching/protein-structure-prediction/ctd1.pdf)
+	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd3.pdf)
+
 
 
 <!--
