@@ -91,6 +91,7 @@ Older lectures [here](pastteaching.md).
 
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
+	* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
 
 <!--
 
