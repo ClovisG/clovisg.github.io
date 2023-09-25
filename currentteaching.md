@@ -10,12 +10,16 @@ Older lectures [here](pastteaching.md).
 
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
 	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
-	* Lecture 1: [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm), [Slides](teaching/protein-structure-prediction/ctd1.pdf)
+	* Lecture 1: [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm)
+	
+	
+<!--
+
+, [Slides](teaching/protein-structure-prediction/ctd1.pdf)
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd3.pdf)
 	* Lecture 4: [Slides](teaching/protein-structure-prediction/ctd4.pdf), structural biology project: [git](https://gitlab.ensimag.fr/galiezc/prot-struct-pred).
 
 
-<!--
 	* Lecture 2: No slides.
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
 
@@ -89,6 +93,8 @@ Older lectures [here](pastteaching.md).
 *  Information Retrieval
 
 
+<!--
+
 	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
 	* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
@@ -97,8 +103,6 @@ Older lectures [here](pastteaching.md).
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
 		* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
 [syllabus](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/-/raw/master/doc/tpWikiSearchEngine.pdf?inline=false) 
-
-<!--
 
 
 		* (Optional) documents for tutorials: [Polysemy resolution](teaching/mastereBigData/ir/ctd2/categorySpecificLatentSemanticsPruned.pdf),[tf-idf map-reduce](teaching/mastereBigData/ir/ctd2/tf-idf-map-reduce.pdf)
