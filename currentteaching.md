@@ -30,13 +30,10 @@ Older lectures [here](pastteaching.md).
 	* Lecture 1 : introduction to protein structure prediction. [Slides](teaching/statInfBio/lecture1.pdf).
 -->
 
+<!--
 
 
 * Information Retrieval
-
-
-
-<!--
 
 	* [Hands-on git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
 	* Lecture 1 and 2: [Slides](teaching/accesInfo/ctd1-IR.pdf)
@@ -90,11 +87,13 @@ Older lectures [here](pastteaching.md).
 
 *  Information Retrieval
 
+	* Lecture 1
+		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
 
 <!--
 
-	* [Lecture 1](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
-		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
+[Slides](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
+
 	* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
 	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf) 
 	* [Lecture 3](teaching/mastereBigData/ir/ctd2/ctd2-IR-bis.pdf) 
