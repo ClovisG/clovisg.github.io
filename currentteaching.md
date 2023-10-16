@@ -13,11 +13,12 @@ Older lectures [here](pastteaching.md).
 	* Lecture 1: [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm), [Slides](teaching/protein-structure-prediction/ctd1.pdf)
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd3.pdf)
 
+
+	* Lecture 4: structural biology project: [git](https://gitlab.ensimag.fr/galiezc/prot-struct-pred).
+
 <!--
 
-
-	* Lecture 4: [Slides](teaching/protein-structure-prediction/ctd4.pdf), structural biology project: [git](https://gitlab.ensimag.fr/galiezc/prot-struct-pred).
-
+ [Slides](teaching/protein-structure-prediction/ctd4.pdf), 
 
 	* Lecture 2: No slides.
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd4.pdf)
