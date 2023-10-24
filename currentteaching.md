@@ -14,7 +14,7 @@ Older lectures [here](pastteaching.md).
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd3.pdf)
 
 
-	* Lecture 4: structural biology project: [git](https://gitlab.ensimag.fr/galiezc/prot-struct-pred).
+	* Lecture 4: structural biology project: [git](https://gitlab.ensimag.fr/galiezc/prot-struct-pred), [Slides](teaching/protein-structure-prediction/ctd4.pdf).
 
 <!--
 
