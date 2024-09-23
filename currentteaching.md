@@ -9,7 +9,9 @@ Older lectures [here](pastteaching.md).
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
 
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
-	* [Git of the project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
+	* [Git of the first project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
+
+<!--
 	* Lecture 1: [presentation of the project](teaching/protein-structure-prediction/session1.html).  [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm), [Slides](teaching/protein-structure-prediction/ctd1.pdf)
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd3.pdf)
 
@@ -18,7 +20,6 @@ Older lectures [here](pastteaching.md).
 	
 	* Lecture 5: structural biology project: [Slides](teaching/protein-structure-prediction/ctd5.pdf).
 
-<!--
 
  [Slides](teaching/protein-structure-prediction/ctd4.pdf), 
 
@@ -90,7 +91,7 @@ Older lectures [here](pastteaching.md).
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
 *  Information Retrieval
-
+<!-- 
 	* Lecture 1
 		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf) [Slides](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 	* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
@@ -98,7 +99,7 @@ Older lectures [here](pastteaching.md).
 	* [Lecture 3](teaching/mastereBigData/ir/ctd2/ctd2-IR-bis.pdf) 
 	* [Lecture 4](teaching/mastereBigData/ir/ctd4/ctd4-IR.pdf)
 
-<!-- 
+
 
 		* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
 [syllabus](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/-/raw/master/doc/tpWikiSearchEngine.pdf?inline=false) 
