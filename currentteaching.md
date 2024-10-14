@@ -92,9 +92,12 @@ Older lectures [here](pastteaching.md).
 ### [Mastere BigData](http://ensimag.grenoble-inp.fr/masters-mastere-specialise/big-data-analyse-management-et-valorisation-responsable-584683.kjsp)
 
 *  Information Retrieval
-<!-- 
+ 
 	* Lecture 1
-		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf) [Slides](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
+		* Documents for tutorials: [Tokenization](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
+
+<!--
+ [Slides](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
 	* Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/)
 	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf) 
 	* [Lecture 3](teaching/mastereBigData/ir/ctd2/ctd2-IR-bis.pdf) 
