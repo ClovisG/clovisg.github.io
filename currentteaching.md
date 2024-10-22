@@ -18,10 +18,10 @@ Older lectures [here](pastteaching.md).
 
 	* Lecture 4: structural biology project: [git](https://gitlab.ensimag.fr/galiezc/predict-protein-x-function), [Slides](teaching/protein-structure-prediction/ctd4.pdf).
 
-<!--
 	
 	* Lecture 5: structural biology project: [Slides](teaching/protein-structure-prediction/ctd5.pdf).
 
+<!--
 
  [Slides](teaching/protein-structure-prediction/ctd4.pdf), 
 
