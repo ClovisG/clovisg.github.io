@@ -23,13 +23,9 @@ description: Research and teaching in computer science and bioinformatics.
 
 # List of links in the navigation bar
 navbar-links:
-  About/Contact: "aboutme"
   Teaching:
     - Current: "currentteaching"
     - Past: "pastteaching"
-  Research:
-    - Research interests:  "research"
-    - GitHub Page: "https://github.com/ClovisG/"
   Publications: "https://scholar.google.com/citations?hl=en&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate"
 
 # Image to show in the navigation bar - image must be a square (width = height)
