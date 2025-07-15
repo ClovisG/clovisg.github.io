@@ -67,7 +67,7 @@ I am co-owner of a US-French patent: [FR3109002A1](https://patents.google.com/pa
 * 2019: GdR Stat&Santé (4k€), Grenoble DataInstitute (10k€)
 
 ### Short Resumé
-* 2023- now: Associate Professor at Laval University (Québec, Canada)
+* 2023- now: Associate Professor at [Laval University (Québec, Canada)](https://www.ulaval.ca/en)
 * 2018- now: Assistant Professor in data science at [Ensimag](http://ensimag.grenoble-inp.fr/en) (Grenoble INP), researcher at [DATA/LJK](https://ljk.imag.fr/Statistique/index_en.html)
 * 2016-2018: PostDoc at the Max Planck Institute in Göttingen in the [SoedingLab](http://www.mpibpc.mpg.de/soeding)
 * 2012-2015: PhD in Computer science at Inria Rennes in DyLiss team [DyLiss](http://www.irisa.fr/dyliss/)
