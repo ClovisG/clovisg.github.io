@@ -3,8 +3,6 @@ layout: page
 title: Clovis Galiez
 subtitle: Assistant professor in data science
 use-site-title: true
-banner:
-     image: '/img/path.jpg'
 ---
 
 
