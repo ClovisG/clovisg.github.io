@@ -56,12 +56,14 @@ See my [Scholar page](https://scholar.google.com/citations?user=vmTnjSYAAAAJ).
 
 ### Teaching
 I give general lectures related to data science at Ensimag (G-INP) from 3rd year of BSc to MSc: probability theory, principles and methods in statistics, probabilistic methods for machine learning.
+
 I also teach more specific topics for MSc students: Computational biology, Information Retrieval
 Check [this page](currentteaching.md) for more details.
 
 
 ### Industrial collaborations
 I had a collaboration with [In&Motion](https://www.inemotion.com/en/) for large-scale classification of temporal sequences.
+
 I am co-owner of a US-French patent: [FR3109002A1](https://patents.google.com/patent/FR3109002A1) & [WO2021198426A1](https://patents.google.com/patent/WO2021198426A1)
 
 ### Grants
