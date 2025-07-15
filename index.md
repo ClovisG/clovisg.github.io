@@ -7,13 +7,17 @@ use-site-title: true
 
 
 
-<a href="https://orcid.org/0000-0002-0560-6023"><img src="orcid.logo.icon.svg" style="max-width: 50%;"> 0000-0002-0560-6023</a>
+<a href="https://orcid.org/0000-0002-0560-6023"><img src="orcid.logo.icon.svg" style="height:50%;"> 0000-0002-0560-6023</a>
 
 Email: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)
 
 ---
-With my students, I develop methods in *statistical learning* to answer questions in various fields of ecology. I mainly focus on using statistical learning to extract information hidden in DNA data (metagenomics, eDNA), with applications in *microbial ecology* and larger scale *functional ecology*.
+
+I develop methods of *statistical learning* to answer questions in various fields of *ecology*.
+
 ---
+
+
 
 ### Publications
 See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate).
@@ -50,6 +54,10 @@ See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAA
 * MSc: 
 	* 2024: Laurence Hotte-de Launière (U. Laval, Québec)
 
+### Reviewing activities
+
+I review for Cell (Patterns), Oxford Academic (NAR, Bioinformatics, Briefng in Bioinformatics), Elsevier (Computational and Structural Biotechnology Journal), BMC
+(Bioinformatics, Biology), PLOS (Computational Biology) and  Wiley-Blackwell (Molecular Ecology Resources, Ecology Letters).
 
 ### Teaching
 I give general lectures related to data science at Ensimag (G-INP) from 3rd year of BSc to MSc: probability theory, principles and methods in statistics, probabilistic methods for machine learning.
