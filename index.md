@@ -6,17 +6,10 @@ use-site-title: true
 ---
 
 
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-	    <p><img src="orcid.logo.icon.svg">ORC ID <a href="https://orcid.org/0000-0002-0560-6023">0000-0002-0560-6023</a></p>
+   I develop tools to describe ecosystems at multiple scales, mainly by leveraging environmental data and statistical learning.
 
-      <p>Contact: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)</p>
-	    
-    </div>
-  </div> <br>
-    I develop tools to describe ecosystems at multiple scales, mainly by leveraging environmental data and statistical learning.
-    <br><br>
+<img src="orcid.logo.icon.svg">ORC ID <a href="https://orcid.org/0000-0002-0560-6023">0000-0002-0560-6023</a>
+
 ### Short CV
 
 * 2023- now: Associate Professor at Laval University (Québec, Canada)
