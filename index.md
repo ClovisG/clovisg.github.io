@@ -56,7 +56,8 @@ See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAA
 I give general lectures related to data science at Ensimag (G-INP) from 3rd year of BSc to MSc: probability theory, principles and methods in statistics, probabilistic methods for machine learning.
 
 I also teach more specific topics for MSc students: Computational biology, Information Retrieval
-Check [this page](currentteaching.md) for more details.
+
+You can check [this page](currentteaching.md) for further details.
 
 
 ### Industrial collaborations
