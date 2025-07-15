@@ -1,21 +1,10 @@
 ---
 layout: page
 title: Clovis Galiez
-subtitle: Assistant professor in data science
+subtitle: I develop methods of *statistical learning* to answer questions in various fields of *ecology*.
 use-site-title: true
 ---
 
-
-
-<a href="https://orcid.org/0000-0002-0560-6023"><img src="orcid.logo.icon.svg" style="height:50%;"> 0000-0002-0560-6023</a>
-
-Email: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)
-
----
-
-I develop methods of *statistical learning* to answer questions in various fields of *ecology*.
-
----
 
 
 
@@ -85,4 +74,9 @@ I am co-owner of a US-French patent: [FR3109002A1](https://patents.google.com/pa
 * 2009-2011: MSc [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch/)
 * 2006-2009: Engineering degree from [Ecole Centrale Paris](http://www.centralesupelec.fr/)
 
+### Contact
+
+You can reach me by mail at: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)
+
+My ORC ID is  <a href="https://orcid.org/0000-0002-0560-6023"><img src="orcid.logo.icon.svg" style="height:50%;"> 0000-0002-0560-6023</a>
 
