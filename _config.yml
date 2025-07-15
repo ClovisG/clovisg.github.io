@@ -23,6 +23,7 @@ description: Research and teaching in computer science and bioinformatics.
 
 # List of links in the navigation bar
 navbar-links:
+  About: "index"
   Teaching:
     - Current: "currentteaching"
     - Past: "pastteaching"
