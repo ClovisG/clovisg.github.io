@@ -14,7 +14,7 @@ Email: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)
 
 I am broadly interested in data science and statistical learning, both from a theoretical perspective and through its application to understanding ecosystems.
 
-I mainly focus on extracting information from DNA data (metagenomics, eDNA), with applications in *microbial ecology* and larger scale *functional ecology*.
+I mainly focus on using statistical learning to extract information hidden in DNA data (metagenomics, eDNA), with applications in *microbial ecology* and larger scale *functional ecology*.
 
 ### Publications
 See my [Scholar page](https://scholar.google.com/citations?user=vmTnjSYAAAAJ).
