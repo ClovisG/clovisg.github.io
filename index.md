@@ -3,11 +3,8 @@ layout: page
 title: Clovis Galiez
 subtitle: Assistant professor in data science
 use-site-title: true
-design:
-   banner:
-   # Upload your cover image to the `assets/media/` folder and reference it here
-   filename: path.jpg
-
+banner:
+     image: '/img/path.jpg'
 ---
 
 
