@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Clovis Galiez
-subtitle: I develop methods of *statistical learning* to answer questions in various fields of *ecology*.
+subtitle: I develop methods of statistical learning to answer questions in various fields of ecology.
 use-site-title: true
 ---
 
