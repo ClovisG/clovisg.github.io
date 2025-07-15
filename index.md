@@ -7,14 +7,13 @@ use-site-title: true
 
 
 
-<img src="orcid.logo.icon.svg">ORC ID <a href="https://orcid.org/0000-0002-0560-6023">0000-0002-0560-6023</a>
+<a href="https://orcid.org/0000-0002-0560-6023"><img src="orcid.logo.icon.svg" style="max-width: 50%;"> 0000-0002-0560-6023</a>
 
 Email: firstname.name@univ-grenoble-alpes.fr (firstname.name = clovis.galiez)
 
-
-I am broadly interested in data science and statistical learning, both from a theoretical perspective and through its application to understanding ecosystems.
-
-I mainly focus on using statistical learning to extract information hidden in DNA data (metagenomics, eDNA), with applications in *microbial ecology* and larger scale *functional ecology*.
+---
+With my students, I develop methods in *statistical learning* to answer questions in various fields of ecology. I mainly focus on using statistical learning to extract information hidden in DNA data (metagenomics, eDNA), with applications in *microbial ecology* and larger scale *functional ecology*.
+---
 
 ### Publications
 See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate).
