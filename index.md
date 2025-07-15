@@ -23,5 +23,4 @@ use-site-title: true
 
     I give several <a href="currentteaching">lectures</a> related to data science at <a href="https://ensimag.grenoble-inp.fr/en">Ensimag</a> (Grenoble INP group) in Université Grenoble Alpes.
 
-</div>
 
