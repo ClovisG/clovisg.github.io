@@ -17,9 +17,7 @@ I am broadly interested in data science and statistical learning, both from a th
 I mainly focus on using statistical learning to extract information hidden in DNA data (metagenomics, eDNA), with applications in *microbial ecology* and larger scale *functional ecology*.
 
 ### Publications
-See my [Scholar page](https://scholar.google.com/citations?user=vmTnjSYAAAAJ).
-
-
+See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate).
 
 ### PhD Students
 * Alexandre Boulay (2025-)
