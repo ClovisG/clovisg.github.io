@@ -51,7 +51,7 @@ My most up-to-date publication list is available on my [Scholar page](https://sc
 
 ### Reviewing activities
 
-I review for Cell (Patterns), Oxford Academic (NAR, Bioinformatics, Briefng in Bioinformatics), Elsevier (Computational and Structural Biotechnology Journal), BMC
+I review manuscripts for Cell (Patterns), Oxford Academic (NAR, Bioinformatics, Briefng in Bioinformatics), Elsevier (Computational and Structural Biotechnology Journal), BMC
 (Bioinformatics, Biology), PLOS (Computational Biology) and  Wiley-Blackwell (Molecular Ecology Resources, Ecology Letters).
 
 ### Teaching
