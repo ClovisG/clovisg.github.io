@@ -13,7 +13,7 @@ The microbes are the most abundant entities on Earth, encoding huge swathes of t
 
 I contribute to the effort of the scientific community better understand the functions and relations at stake in these ecosystems.
 
-#### Understanding the functions
+#### Understanding functions
 I have been contributing to release of various databases, either of general purposes or focussing on more specific aspects (viruses in particular). I also developed machine learning tools to unveil functions encoded in microbial genomes.
 
 Related publications:
