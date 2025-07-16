@@ -8,8 +8,9 @@ use-site-title: true
 
 
 
-### Publications
-See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate).
+### Research activity
+You can check more details about my scientific contributions on [this page](researchdirections.md).
+See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate) for the most up-to-date publication list.
 
 ### PhD Students
 * Alexandre Boulay (2025-)
