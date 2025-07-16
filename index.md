@@ -9,8 +9,11 @@ use-site-title: true
 
 
 ### Research activity
-You can check more details about my scientific contributions on [this page](researchdirections.md).
-See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate) for the most up-to-date publication list.
+
+Details about my scientific contributions can be found on [this page](researchdirections.md).
+
+
+My most up-to-date publication list is available on my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAAAJ&view_op=list_works&sortby=pubdate).
 
 ### PhD Students
 * Alexandre Boulay (2025-)
