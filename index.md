@@ -26,7 +26,9 @@ See my [Scholar page](https://scholar.google.com/citations?hl=fr&user=vmTnjSYAAA
 	* 2018: R. Zhang (U. of Göttingen)
 	* 2017: V. Zinchenko (U. of Göttingen)
 * MSc interns:
-	* 2021: M. Roux, M. Schneider
+	* 2024: L. Breton, A. Mourier, R. Faraj
+	* 2021: M. Roux, W. Brown, H. Siala
+	* 2020: M. Schneider
 	* 2019: M. Hérault, A. Poché
 	* 2017: V. Mudryi, V. Zinchenko (U. of Göttingen)
 * Guest researchers/engineers:
