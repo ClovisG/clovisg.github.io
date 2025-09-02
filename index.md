@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Clovis Galiez
-subtitle: I develop methods of statistical learning to gain insights in microbial and functional ecology.
+subtitle: I develop methods of statistical learning for microbial and functional ecology.
 use-site-title: true
 ---
 
