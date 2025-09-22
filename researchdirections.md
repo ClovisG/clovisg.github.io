@@ -18,7 +18,7 @@ I have been contributing to release of various databases, either of general purp
 
 Related publications:
 * Databases:
-	* EnVhogDB [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.06.25.600602) 
+	* EnVhogDB [PCJ](https://doi.org/10.24072/pcjournal.627)
 	* PHROG  [NAR](https://academic.oup.com/nargab/article/3/3/lqab067/6342220)
 	* Uniclust [NAR](https://academic.oup.com/nar/article/45/D1/D170/2605730)
 * Tools:
@@ -40,7 +40,7 @@ We are in the process of integrating migration and interaction of species to exp
 
 Related publication:
 * PFAL-AFPL [MEE](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14203)
-
+* CAMELIA (*in press at MEE*)
 
 ### Environment
 
@@ -60,7 +60,7 @@ Concrete questions rise more fundamental ones calling for theoretical developmen
 For instance, to assess the statistical significance of spatial associations in botanical surveys, we had to develop a new statistical test on stratified contingency tables. The scope of application of this test turns out to be quite borad: epidemiology, meta-analysis, etc.
 
 Related publication 
-* GASTE [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.26.605317)
+* GASTE [CSDA](https://doi.org/10.1016/j.csda.2025.108277)
 
 I also provided a theoretical justification to the convergence of iterative reinjection of random noise in autoencoders:
 * [ICMLA](https://ieeexplore.ieee.org/abstract/document/9356324)
