@@ -60,7 +60,7 @@ Concrete questions rise more fundamental ones calling for theoretical developmen
 For instance, to assess the statistical significance of spatial associations in botanical surveys, we had to develop a new statistical test on stratified contingency tables. The scope of application of this test turns out to be quite borad: epidemiology, meta-analysis, etc.
 
 Related publication 
-* GASTE [CSDA](https://doi.org/10.1016/j.csda.2025.108277)
+* GASTE [CSDA](https://doi.org/10.1016/j.csda.2025.108277), and [Python Package](https://pypi.org/project/gaste-test/)
 
 I also provided a theoretical justification to the convergence of iterative reinjection of random noise in autoencoders:
 * [ICMLA](https://ieeexplore.ieee.org/abstract/document/9356324)
