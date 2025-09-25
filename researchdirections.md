@@ -23,7 +23,7 @@ Related publications:
 	* Uniclust [NAR](https://academic.oup.com/nar/article/45/D1/D170/2605730)
 * Tools:
 	* Empathi [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.31.630607) (**in press at Nat Com.**)
-	* SPAED [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.25.650745)
+	* SPAED [Bioinformatics](https://doi.org/10.1093/bioinformatics/btaf531)
 
 #### Unveiling relations shaping microbial ecosystems
 
