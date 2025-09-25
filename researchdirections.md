@@ -22,7 +22,7 @@ Related publications:
 	* PHROG  [NAR](https://academic.oup.com/nargab/article/3/3/lqab067/6342220)
 	* Uniclust [NAR](https://academic.oup.com/nar/article/45/D1/D170/2605730)
 * Tools:
-	* Empathi [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.31.630607)
+	* Empathi [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.31.630607) (**in press at Nat Com.**)
 	* SPAED [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.25.650745)
 
 #### Unveiling relations shaping microbial ecosystems
@@ -40,7 +40,7 @@ We are in the process of integrating migration and interaction of species to exp
 
 Related publication:
 * PFAL-AFPL [MEE](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14203)
-* CAMELIA (*in press at MEE*)
+* CAMELIA [MEE](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70158)
 
 ### Environment
 
