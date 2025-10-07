@@ -95,6 +95,8 @@ Older lectures [here](pastteaching.md).
  
 	* Lecture 1
 		* Documents for tutorials: [Patent](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)
+
+
 <!--
 
 
