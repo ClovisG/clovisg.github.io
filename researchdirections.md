@@ -22,7 +22,7 @@ Related publications:
 	* PHROG  [NAR](https://academic.oup.com/nargab/article/3/3/lqab067/6342220)
 	* Uniclust [NAR](https://academic.oup.com/nar/article/45/D1/D170/2605730)
 * Tools:
-	* Empathi [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.31.630607) (**in press at Nat Com.**)
+	* Empathi [Nat. Com.](https://www.nature.com/articles/s41467-025-64177-5)
 	* SPAED [Bioinformatics](https://doi.org/10.1093/bioinformatics/btaf531)
 
 #### Unveiling relations shaping microbial ecosystems
