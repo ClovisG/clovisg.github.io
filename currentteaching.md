@@ -93,6 +93,8 @@ Older lectures [here](pastteaching.md).
  
 	* Lecture 1
 		* Documents for tutorials: [Patent](teaching/mastereBigData/ir/ctd1/USPatentExtract.pdf)  and [Slides](teaching/mastereBigData/ir/ctd1/ctd1-IR.pdf)
+    * Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/) and
+[syllabus](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/-/raw/master/doc/tpWikiSearchEngine.pdf?inline=false) 
 
 
 <!--
