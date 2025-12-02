@@ -96,6 +96,8 @@ Older lectures [here](pastteaching.md).
     * Hands-on session [git](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/) and
 [syllabus](https://gitlab.ensimag.fr/galiezc/wikisearchengineproject/-/raw/master/doc/tpWikiSearchEngine.pdf?inline=false)
 	* [Lecture 2](teaching/mastereBigData/ir/ctd2/ctd2-IR.pdf) 
+    * [Lecture 3](teaching/mastereBigData/ir/ctd2/ctd2-IR-bis.pdf) 
+
 
 <!--
 
