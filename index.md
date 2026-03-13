@@ -19,13 +19,14 @@ My most up-to-date publication list is available on my [Scholar page](https://sc
 * Alexandre Boulay (2025-)
 * Maxime Hoareau (2025-), co-advised with W. Thuiller (LECA)
 * Alexandre Wendling (2023-), co-advised with J. Arbel (LJK)
-* Gabrielle Deschamps (2021-), co-advised with W. Thuiller (LECA)
 
 ### Alumni
 * PhD students
 	* Benjamin Fayolle (2021-2021), with O. François
+    * Gabrielle Deschamps (2021-2025), co-advised with W. Thuiller (LECA)
 * MSc thesis:
-	* 2025: M. Coulibaly (U. Laval, Québec), A. Boulay (U. Laval, Québec), V. Primpied (U. Laval, Québec), K. Varlamova
+    * 2026: A. Saeidikelishami (UGA), N. Siddiqui (UGA)
+	* 2025: M. Coulibaly (U. Laval, Québec), A. Boulay (U. Laval, Québec), V. Primpied (U. Laval, Québec), K. Varlamova (UGA)
 	* 2023: A. Wendling
 	* 2018: R. Zhang (U. of Göttingen)
 	* 2017: V. Zinchenko (U. of Göttingen)
@@ -52,7 +53,7 @@ My most up-to-date publication list is available on my [Scholar page](https://sc
 ### Reviewing activities
 
 I review manuscripts for Cell (Patterns), Oxford Academic (NAR, Bioinformatics, Briefng in Bioinformatics), Elsevier (Computational and Structural Biotechnology Journal), BMC
-(Bioinformatics, Biology), PLOS (Computational Biology) and  Wiley-Blackwell (Molecular Ecology Resources, Ecology Letters).
+(Bioinformatics, Biology), PLOS (Computational Biology),  Wiley-Blackwell (Molecular Ecology Resources, Ecology Letters), and PCI (Math. Comp. Biol., Genomics).
 
 ### Teaching
 I give general lectures related to data science at Ensimag (G-INP) from 3rd year of BSc to MSc: probability theory, principles and methods in statistics, probabilistic methods for machine learning.
