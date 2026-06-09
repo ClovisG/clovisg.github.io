@@ -19,6 +19,7 @@ I have been contributing to release of various databases, either of general purp
 Related publications:
 * Databases:
 	* EnVhogDB [PCJ](https://doi.org/10.24072/pcjournal.627)
+    * PhaLP 2.0 [Database](https://academic.oup.com/database/article/doi/10.1093/database/baag033/8702877)
 	* PHROG  [NAR](https://academic.oup.com/nargab/article/3/3/lqab067/6342220)
 	* Uniclust [NAR](https://academic.oup.com/nar/article/45/D1/D170/2605730)
 * Tools:
@@ -39,6 +40,7 @@ I am interested in gaining insights about why a species establishes itself in a 
 We are in the process of integrating migration and interaction of species to explain where species establish.
 
 Related publication:
+* Plant associations [Ecology Letters](https://onlinelibrary.wiley.com/doi/full/10.1111/ele.70393)
 * PFAL-AFPL [MEE](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14203)
 * CAMELIA [MEE](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70158)
 
