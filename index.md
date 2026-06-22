@@ -22,8 +22,8 @@ My most up-to-date publication list is available on my [Scholar page](https://sc
 
 ### Alumni
 * PhD students
-	* Benjamin Fayolle (2021-2021), with O. François
     * Gabrielle Deschamps (2021-2025), co-advised with W. Thuiller (LECA)
+	* Benjamin Fayolle (2021-2021), with O. François
 * MSc thesis:
     * 2026: A. Saeidikelishami (UGA), N. Siddiqui (UGA)
 	* 2025: M. Coulibaly (U. Laval, Québec), A. Boulay (U. Laval, Québec), V. Primpied (U. Laval, Québec), K. Varlamova (UGA)
@@ -75,7 +75,7 @@ I am co-owner of a US-French patent: [FR3109002A1](https://patents.google.com/pa
 
 ### Short Resumé
 * 2023- now: Associate Professor at [Laval University (Québec, Canada)](https://www.ulaval.ca/en)
-* 2018- now: Assistant Professor in data science at [Ensimag](http://ensimag.grenoble-inp.fr/en) (Grenoble INP), researcher at [DATA/LJK](https://ljk.imag.fr/Statistique/index_en.html)
+* 2018- now: Assistant Professor in data science at [Ensimag](http://ensimag.grenoble-inp.fr/en) (Grenoble INP), researcher at [DATA/LJK](https://www-ljk.imag.fr/spip.php?article23)
 * 2016-2018: PostDoc at the Max Planck Institute in Göttingen in the [SoedingLab](http://www.mpibpc.mpg.de/soeding)
 * 2012-2015: PhD at Inria Rennes in DyLiss team [DyLiss](http://www.irisa.fr/dyliss/)
 * 2009-2011: MSc [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch/)
