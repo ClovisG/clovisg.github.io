@@ -4,6 +4,7 @@ title: Sequencing in progress...
 ---
 
 ![Working hard!](chemist.jpg)
+
 <!--
 
 
@@ -12,7 +13,6 @@ Please find here the Illumina sequencing data of your two [strains](https://en.w
 
 Please do your best to find why this strain is resistant!
 -->
-
 
 
 
