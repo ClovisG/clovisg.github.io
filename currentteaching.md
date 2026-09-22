@@ -9,9 +9,12 @@ Older lectures [here](pastteaching.md).
 ### [Ensimag](http://ensimag.grenoble-inp.fr/en)
 
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
-	* [Git of the first project](https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
+	* [Git of the first project](https://github.com/ClovisG/salmonella-project) 
 
 <!--
+
+(https://gitlab.ensimag.fr/galiezc/protein-structure-prediction/)
+
 	* Lecture 1: [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm), [Slides](teaching/protein-structure-prediction/ctd1.pdf)
 	* Lecture 3: [Slides](teaching/protein-structure-prediction/ctd3.pdf)
 	* Lecture 4: structural biology project: [git](https://gitlab.ensimag.fr/galiezc/predict-protein-x-function), [Slides](teaching/protein-structure-prediction/ctd4.pdf).
