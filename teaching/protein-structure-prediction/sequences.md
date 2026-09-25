@@ -14,7 +14,6 @@ Please do your best to find why this strain is resistant!
 
 <!--
 
-
 Biologists are working hard to provide as soon as possible the sequencing of your two strains! They should be available next week.
 
 
