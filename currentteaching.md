@@ -10,6 +10,7 @@ Older lectures [here](pastteaching.md).
 
 * Computational biology: [See the trailer](teaching/protein-structure-prediction/salmonella_outbreak.mp4)
 	* [Git of the first project](https://github.com/ClovisG/salmonella-project) 
+    * Lecture 1: [Sequencing data](teaching/protein-structure-prediction/sequences.md),  [Genome to protein video](teaching/protein-structure-prediction/seqToProt.webm), [Slides](teaching/protein-structure-prediction/ctd1.pdf)
 
 <!--
 
